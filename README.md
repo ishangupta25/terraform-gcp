@@ -1,6 +1,6 @@
 # terraform-gcp
 
-Update project name in vpc.tf.
+# Update project name in vpc.tf.
 
 root@b2b7b4040c04:/terraform-gcp# ls /terraform-gcp/vpc.tf
 
@@ -8,18 +8,20 @@ root@b2b7b4040c04:/terraform-gcp# ls /terraform-gcp/vpc.tf
 
 
 
-Update project name in main.tf files under both private and public folders in compute.
+# Update project name in main.tf files under both private and public folders in compute.
 
 root@b2b7b4040c04:/terraform-gcp# ls /terraform-gcp/compute/private
+
 main.tf
 
 root@b2b7b4040c04:/terraform-gcp# ls /terraform-gcp/compute/public
+
 main.tf
 
 
 
 
-Create VPC with subnets, firewall rules and Cloud NAT
+# Create VPC with subnets, firewall rules and Cloud NAT
 
 root@b2b7b4040c04:/terraform-gcp# pwd
 
@@ -34,7 +36,7 @@ root@b2b7b4040c04:/terraform-gcp# terraform apply
 
 
 
-Create VM with public and private IP (Public subnet)
+# Create VM with public and private IP (Public subnet)
 
 root@b2b7b4040c04:/terraform-gcp/compute/publice# pwd
 
@@ -49,7 +51,7 @@ root@b2b7b4040c04:/terraform-gcp# terraform apply
 
 
 
-Create VM with only private IP (Private subnet)
+# Create VM with only private IP (Private subnet)
 
 root@b2b7b4040c04:/terraform-gcp/compute/private# pwd
 
